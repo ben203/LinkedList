@@ -2,9 +2,7 @@ public class LinkedList {
 
 	Node head;
 
-	// A node class that is static so that it
-	// can be used by methods that are
-	// used in the main method
+	//node class 
 
 	static class Node {
 
@@ -26,35 +24,24 @@ public class LinkedList {
 		LinkedList l2 = new LinkedList();
 		LinkedList l3 = new LinkedList();
 
-		l1.add(99);
+		 
 		l1.add(0);
 		l1.add(1);
-		l1.add(1);
-		l1.add(1);
+		l1.add(7);
+		l1.add(13);
 
 		l2.add(4);
 		l2.add(5);
 		l2.add(9);
-
-		System.out.println(l3.getDecimalValue(l1.head));
-//		Node prev=null; Node next=null;
-//		 l1.reverseRecur(prev,next);
-
-		// l1.reverse();
-
-//		LinkedList.add(l2, 1);
-//		LinkedList.add(l2, 1);
-
-		// delete(l, 12);
+ 
+ 
 
 		// reverse(l);
-		l1.reverseRecur(null, null);
+		//l1.reverseRecur(null, null);
 
-		// oddEven(l);
+	 
 
-		// findTheMiddleElement(l);
-
-		// l3.mergeSortedList(l1, l2).print();
+		  l3.mergeSortedList(l1, l2).print();
 
 	}
 
